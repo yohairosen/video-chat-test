@@ -34,3 +34,6 @@ moviepy
 pygame
 edge-tts
 websocket-client
+
+fastapi
+uvicorn

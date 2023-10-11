@@ -19,6 +19,10 @@ from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips
 import cv2
 import pygame
 import hashlib
+from fastapi import FastAPI
+import uvicorn
+
+app = FastAPI()
 
 video_list = []
 
@@ -91,6 +95,39 @@ def connet_fay():
         fay_ws.run_forever()
     connect()
 
+@app.get("/audio_to_video/")
+async def audio_to_video(file_path: str):
+    aud_dir = file_path
+    aud_dir = aud_dir.replace("\\", "/")
+    print('message:', aud_dir, type(aud_dir))
+    basedir = ""
+    for i in aud_dir.split("/"):
+        basedir = os.path.join(basedir,i)
+    basedir = basedir.replace(":",":\\")   
+    num = time.time()
+    new_path = r'./data/audio/aud_%d.wav'%num  #新路径                
+    old_path = basedir                
+
+    convert_mp3_to_wav(old_path, new_path) 
+    audio_hash = hash_file_md5(new_path)
+    if audio_hash in video_cache:
+        video_list.append({"video": video_cache[audio_hash], "audio": new_path})
+        print("视频已存在，直接播放。")
+    else:
+        audio_path = 'data/audio/aud_%d.wav' % num
+        audio_process(audio_path)
+        audio_path_eo = 'data/audio/aud_%d_eo.npy' % num
+        video_path = 'data/video/results/ngp_%d.mp4' % num
+        output_path = 'data/video/results/output_%d.mp4' % num
+        generate_video(audio_path, audio_path_eo, video_path, output_path)
+        video_list.append({"video" : output_path, "audio" : new_path})
+        video_cache[audio_hash] = output_path
+
+    return {"code": 200}
+
+def start_fastapi_server():
+    uvicorn.run(app, host="0.0.0.0", port=8800)
+
 def convert_mp3_to_wav(input_file, output_file):
     # 坑啊兄弟
     audio_extension = os.path.splitext(input_file)[1].lower()
@@ -145,7 +182,11 @@ if __name__ == '__main__':
     audio_pre_process()
     video_pre_process()
 
+    # 注释掉原来的fay连接，你要用的话自己开回去吧
     threading.Thread(target=connet_fay, args=[]).start()
+    # 创建并启动FastAPI服务的线程
+    # threading.Thread(target=start_fastapi_server).start()
+
     play_video()
 
 

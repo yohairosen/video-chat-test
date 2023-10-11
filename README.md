@@ -44,7 +44,11 @@ cflags = common_cflags + COMMON_MSVC_FLAGS + ['/std:c++14'] + extra_cflags
 ```
 
 # API
-`ws://127.0.0.1:8800/dighuman`
+ws接口：`ws://127.0.0.1:10002`  
+传参为json数据  
+
+http接口(http_api.py)：`http://127.0.0.1:8800/audio_to_video?file_path=音频文件路径`  
+
 
 # 虚拟人说话头生成(NeRF虚拟人实时驱动)--尽情打造自己的call annie吧
 ![](/img/example.gif)
