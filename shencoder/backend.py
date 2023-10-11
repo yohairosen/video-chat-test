@@ -11,13 +11,16 @@ nvcc_flags = [
 if os.name == "posix":
     c_flags = ['-O3', '-std=c++14']
 elif os.name == "nt":
-    c_flags = ['/O2', '/std:c++17']
+    c_flags = ['/O2', '/std:c++14']
 
     # find cl.exe
     def find_cl_path():
         import glob
         for edition in ["Enterprise", "Professional", "BuildTools", "Community"]:
-            paths = sorted(glob.glob(r"C:\\Program Files (x86)\\Microsoft Visual Studio\\*\\%s\\VC\\Tools\\MSVC\\*\\bin\\Hostx64\\x64" % edition), reverse=True)
+            # 我自己安装的路径，看情况适配
+            paths = sorted(glob.glob(r"D:\\VS2022\\%s\\VC\\Tools\\MSVC\\*\\bin\\Hostx64\\x64" % edition), reverse=True)
+            # 默认路径
+            # paths = sorted(glob.glob(r"C:\\Program Files (x86)\\Microsoft Visual Studio\\*\\%s\\VC\\Tools\\MSVC\\*\\bin\\Hostx64\\x64" % edition), reverse=True)
             if paths:
                 return paths[0]
 

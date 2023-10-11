@@ -60,7 +60,7 @@ def txt_to_audio(text_):
 @sockets.route('/dighuman')
 def echo_socket(ws):
     # 获取WebSocket对象
-    #ws = request.environ.get('wsgi.websocket')
+    ws = request.environ.get('wsgi.websocket')
     # 如果没有获取到，返回错误信息
     if not ws:
         print('未建立连接！')

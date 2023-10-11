@@ -92,7 +92,14 @@ def connet_fay():
     connect()
 
 def convert_mp3_to_wav(input_file, output_file):
-    audio = AudioSegment.from_mp3(input_file)
+    # 坑啊兄弟
+    audio_extension = os.path.splitext(input_file)[1].lower()
+    if audio_extension == "wav":
+        audio = AudioSegment.from_wav(input_file)
+    elif audio_extension == "mp3":
+        audio = AudioSegment.from_mp3(input_file)
+    else:
+        audio = AudioSegment.from_file(input_file)
     audio.export(output_file, format='wav')
 
 

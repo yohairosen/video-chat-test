@@ -1,3 +1,51 @@
+# 个人环境
+系统：win11  
+CUDA：12.1  
+VS版本：2022  
+VS installer：安装win的C++桌面开发相关内容  
+gcc编译器：MinGW  
+```
+C:\Users\Administrator>gcc -v
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=d:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
+Thread model: win32
+gcc version 6.3.0 (MinGW.org GCC-6.3.0-1)
+```
+python版本：3.10
+python库版本：  
+```
+pytorch3d               0.7.4
+torch                   2.1.0
+torchaudio              2.1.0+cu121
+torchvision             0.16.0+cu12
+```
+
+注意：由于我没有把VS装在C盘，所以替换了程序内的默认路径，你可以用VS Code全局搜索下`Microsoft Visual Studio\\*\\%s\\VC\\Tools\\MSVC\\*\\bin\\Host`  然后你就会看见我的注释了，然后你就把你的路径恢复上去就行。  
+```
+# 我自己安装的路径，看情况适配
+paths = sorted(glob.glob(r"D:\\VS2022\\%s\\VC\\Tools\\MSVC\\*\\bin\\Hostx64\\x64" % edition), reverse=True)
+# 默认路径
+# paths = sorted(glob.glob(r"C:\\Program Files (x86)\\Microsoft Visual Studio\\*\\%s\\VC\\Tools\\MSVC\\*\\bin\\Hostx64\\x64" % edition), reverse=True)
+```
+
+替换了c++17为c++14  
+```
+['/O2', '/std:c++17'] -> ['/O2', '/std:c++14']
+```
+
+torch库内  
+```
+# 修改
+cflags = common_cflags + COMMON_MSVC_FLAGS + ['/std:c++14'] + extra_cflags
+# cflags = common_cflags + COMMON_MSVC_FLAGS + ['/std:c++17'] + extra_cflags
+```
+
+# API
+`ws://127.0.0.1:8800/dighuman`
+
 # 虚拟人说话头生成(NeRF虚拟人实时驱动)--尽情打造自己的call annie吧
 ![](/img/example.gif)
 
