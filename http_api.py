@@ -129,15 +129,27 @@ def start_fastapi_server():
     uvicorn.run(app, host="0.0.0.0", port=8800)
 
 def convert_mp3_to_wav(input_file, output_file):
-    # 坑啊兄弟
-    audio_extension = os.path.splitext(input_file)[1].lower()
-    if audio_extension == "wav":
-        audio = AudioSegment.from_wav(input_file)
-    elif audio_extension == "mp3":
-        audio = AudioSegment.from_mp3(input_file)
-    else:
+    try:
+        # 检查文件是否存在
+        if not os.path.isfile(input_file):
+            raise FileNotFoundError("Input file does not exist.")
+
+        # 检查文件格式
+        audio_extension = os.path.splitext(input_file)[1].lower()
+        if audio_extension not in [".mp3", ".wav"]:
+            raise ValueError("Unsupported file format")
+
+        # 读取音频文件
         audio = AudioSegment.from_file(input_file)
-    audio.export(output_file, format='wav')
+
+        # 导出为 WAV 格式
+        audio.export(output_file, format='wav')
+        print(f"File converted and saved as {output_file}")
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+    except ValueError as e:
+        print(f"Error: {e}")
+
 
 
 def play_video():

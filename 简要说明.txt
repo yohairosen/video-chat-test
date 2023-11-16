@@ -1,0 +1,6 @@
+xuniren windows安装教程：[一步步教学在 Windows 下面安装 pytorch3d 来部署 xuniren 这个项目 - 坤坤 - 博客园 (cnblogs.com)](https://www.cnblogs.com/dm521/p/17469967.html)
+
+模型训练教程：[(278条消息) xuniren（Fay数字人开源社区项目）NeRF模型训练教程_郭泽斌之心的博客-CSDN博客](https://blog.csdn.net/aa84758481/article/details/131135823)
+
+除了参考这2个教程外，我在README.md中头部也写了我本机的相关配置，都很重要，VS C++环境的坑、项目路径的坑、torch版本和CUDA版本的坑，都需要注意。
+虽然我打包了整合包，但不代表你就能直接使用了，因为环境还有好多需要你自行安装！
