@@ -1,36 +1,77 @@
-torch-ema
-ninja
-trimesh
-opencv-python
-tensorboardX
-torch
-numpy 
-pandas
-tqdm
-matplotlib
-PyMCubes
-rich
-dearpygui
-packaging
-scipy
+# torch-ema
+# ninja
+# trimesh
+# opencv-python
+# tensorboardX
+# torch
+# numpy 
+# pandas
+# tqdm
+# matplotlib
+# PyMCubes
+# rich
+# dearpygui
+# packaging
+# scipy
 
-face_alignment
-python_speech_features
-numba
-resampy
-transformers
-pyaudio
-soundfile
-einops
-configargparse
+# face_alignment
+# python_speech_features
+# numba
+# resampy
+# transformers
+# pyaudio
+# soundfile
+# einops
+# configargparse
 
-lpips
-imageio-ffmpeg
+# lpips
+# imageio-ffmpeg
 
-flask
-flask_sockets
-pydub
-moviepy
-pygame
-edge-tts
-websocket-client
+# flask
+# flask_sockets
+# pydub
+# moviepy
+# pygame
+# edge-tts
+# websocket-client
+
+
+
+torch-ema==0.3
+ninja==1.11.1.1
+trimesh==4.0.10
+opencv-python==4.9.0.80
+tensorboardX==2.6.2.2
+torch==1.12.0 
+torchvision==0.13.0
+torchaudio==0.12.0
+numpy==1.24.4
+pandas==2.0.3
+tqdm==4.66.1
+matplotlib==3.7.4
+PyMCubes==0.1.4
+rich==13.7.0
+dearpygui==1.10.1
+packaging==23.2
+scipy==1.10.1
+
+face-alignment==1.4.1
+python-speech-features==0.6
+numba==0.58.1
+resampy==0.4.2
+transformers==4.36.2
+pyaudio==0.2.14
+soundfile==0.12.1
+einops==0.7.0
+configargparse==1.7
+
+lpips==0.1.4
+imageio-ffmpeg==0.4.9
+
+flask==3.0.1
+flask_sockets==0.2.1
+pydub==0.25.1
+moviepy==1.0.3
+pygame==2.5.2
+edge-tts==6.1.9
+websocket-client==1.7.0
