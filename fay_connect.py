@@ -79,9 +79,12 @@ def connet_fay():
         print(f"Fay Error: {error}")
         reconnect()
 
-    def on_close(ws):
+    def on_close(ws, close_status_code, close_reason):
         print("Fay Connection closed")
+        print("Status code:", close_status_code)
+        print("Reason:", close_reason)
         reconnect()
+
 
     def on_open(ws):
         print("Fay Connection opened")
