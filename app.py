@@ -92,7 +92,7 @@ if __name__ == '__main__':
     audio_pre_process()
     video_pre_process()
     
-    server = pywsgi.WSGIServer(('127.0.0.1', 8800), app, handler_class=WebSocketHandler)
+    server = pywsgi.WSGIServer(('0.0.0.0', 8800), app, handler_class=WebSocketHandler)
     server.serve_forever()
     
     
