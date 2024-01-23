@@ -192,3 +192,717 @@
 ==> Finished Test.
 ==> Start Test, save results to data/video\results
 ==> Finished Test.
+[INFO] Trainer: ngp | 2024-01-22_10-17-29 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_10-18-28 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_10-21-08 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_10-23-29 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_10-26-35 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_10-29-17 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_10-41-39 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_10-42-20 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_10-43-47 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_10-55-36 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_11-06-37 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_11-31-10 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_11-36-01 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_11-40-13 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_12-15-31 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_14-49-31 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-46-19 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-46-34 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-48-07 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-48-21 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-49-36 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-49-50 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-50-04 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-51-30 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-53-07 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-55-36 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-57-04 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_17-57-38 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_18-03-04 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_18-03-10 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_18-03-19 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+==> Start Test, save results to data/video/results
+==> Start Test, save results to data/video/results
+==> Start Test, save results to data/video/results
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-22_18-48-05 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-22_18-49-32 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_18-49-44 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_18-49-46 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-22_18-58-58 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_19-03-37 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_19-03-55 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_19-05-53 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_19-06-02 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+==> Finished Test.
+==> Start Test, save results to data/video/results
+==> Finished Test.
+==> Start Test, save results to data/video/results
+==> Finished Test.
+==> Start Test, save results to data/video/results
+==> Finished Test.
+==> Start Test, save results to data/video/results
+==> Finished Test.
+==> Start Test, save results to data/video/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2024-01-22_20-16-51 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_20-33-16 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_20-33-25 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_20-37-20 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_20-37-29 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_20-42-19 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_20-42-27 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_20-58-43 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-22_20-58-52 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+==> Finished Test.
+==> Start Test, save results to data/video/results
+==> Finished Test.
+==> Start Test, save results to data/video/results
+==> Finished Test.
+[INFO] Trainer: ngp | 2024-01-23_08-36-20 | cuda | fp16 | data/video
+[INFO] Trainer: ngp | 2024-01-23_08-36-20 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_08-38-04 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_08-38-13 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_08-38-29 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_08-38-37 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-23_17-17-09 | cuda | fp16 | data/video
+[INFO] Trainer: ngp | 2024-01-23_17-17-09 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[WARN] Failed to load optimizer.
+[INFO] loaded scaler.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_17-21-14 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_17-21-22 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-23_21-02-06 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_21-02-14 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-23_21-08-54 | cuda | fp16 | data/video
+[INFO] Trainer: ngp | 2024-01-23_21-08-54 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_21-11-10 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_21-11-18 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-36-44 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-36-52 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-37-56 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-38-04 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-39-35 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-39-43 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-41-21 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-41-29 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-23_22-43-42 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-43-50 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-23_22-45-29 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-45-37 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-48-05 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-48-13 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-23_22-51-17 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-51-25 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-23_22-56-04 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_22-56-12 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
+[INFO] Trainer: ngp | 2024-01-23_23-04-12 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+[INFO] Trainer: ngp | 2024-01-23_23-04-20 | cuda | fp16 | data/video
+[INFO] #parameters: 4231701
+[INFO] Loading data/pretrained/ngp_kf.pth ...
+[INFO] loaded model.
+[INFO] load at epoch 58, global step 203464
+[WARN] Failed to load optimizer.
+[INFO] loaded scheduler.
+[INFO] loaded scaler.
+==> Start Test, save results to data/video/results
