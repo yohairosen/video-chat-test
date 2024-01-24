@@ -86,7 +86,7 @@ def connet_fay():
         print("Fay Connection opened")
 
     def connect():
-        ws_url = "ws://127.0.0.1:10002"
+        ws_url = "ws://127.0.0.1:8800"
         fay_ws = websocket.WebSocketApp(ws_url,
                                     on_message=on_message,
                                     on_error=on_error,
