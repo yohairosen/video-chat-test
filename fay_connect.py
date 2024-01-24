@@ -112,36 +112,76 @@ def convert_mp3_to_wav(input_file, output_file):
     audio.export(output_file, format='wav')
 
 
+# def play_video():
+#     global video_list
+#     global audio_paths
+#     audio_path = None
+#     frame = None
+#     _, frame = cv2.VideoCapture("data/pretrained/train.mp4").read()
+#     while True:
+#         if video_stream.get_idle() > int(video_stream.get_video_len() / 3):
+#             if len(audio_paths)>0:
+#                 audio_path = audio_paths.pop(0)
+#                 print(audio_path)
+#                 threading.Thread(target=play_audio, args=[audio_path]).start()  # play audio
+#             i = video_stream.get_video_len()
+#             video_stream.set_video_len(0)
+#             #循环播放视频帧
+#             while True:
+#                 imgs = video_stream.read()
+#                 if len(imgs) > 0:
+#                     frame = imgs[0]
+#                     frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+#                     cv2.imshow('Fay-2d', frame)
+#                     # 等待 38 毫秒
+#                     cv2.waitKey(38)
+#                     i = i - 1
+#                 elif i == 0:
+#                     break
+#         else:
+#             cv2.imshow('Fay-2d', frame)
+#             # 等待 38 毫秒
+#             cv2.waitKey(38)
+
+
+
 def play_video():
     global video_list
-    global audio_paths
+    video_path = None
     audio_path = None
+    ret = None
     frame = None
-    _, frame = cv2.VideoCapture("data/pretrained/train.mp4").read()
     while True:
-        if video_stream.get_idle() > int(video_stream.get_video_len() / 3):
-            if len(audio_paths)>0:
-                audio_path = audio_paths.pop(0)
-                print(audio_path)
-                threading.Thread(target=play_audio, args=[audio_path]).start()  # play audio
-            i = video_stream.get_video_len()
-            video_stream.set_video_len(0)
-            #循环播放视频帧
-            while True:
-                imgs = video_stream.read()
-                if len(imgs) > 0:
-                    frame = imgs[0]
-                    frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
-                    cv2.imshow('Fay-2d', frame)
-                    # 等待 38 毫秒
-                    cv2.waitKey(38)
-                    i = i - 1
-                elif i == 0:
-                    break
+        if len(video_list) > 0:
+            video_path = video_list[0].get("video")
+            audio_path = video_list[0].get("audio")
+            cap = cv2.VideoCapture(video_path)  # Open video file
+            video_list.pop(0)
         else:
-            cv2.imshow('Fay-2d', frame)
-            # 等待 38 毫秒
-            cv2.waitKey(38)
+            audio_path = None
+            cap = None
+            _, frame = cv2.VideoCapture("data/pretrained/train.mp4").read()
+
+        if audio_path:
+            threading.Thread(target=play_audio, args=[audio_path]).start()  # Play audio
+        # Loop through video frames
+        while True:
+            if cap:
+                ret, frame = cap.read()
+            if frame is not None:
+                cv2.imwrite('Fay-2d.jpg', frame)
+                # Wait for 38 milliseconds - Can be adjusted or removed as needed
+                # cv2.waitKey(38)
+            if not ret:
+                break
+            # Additional break condition to prevent an infinite loop
+            if not cap.isOpened():
+                break
+
+        # Release the video capture object when done
+        if cap:
+            cap.release()
+
 
 def play_audio(audio_file):
     pygame.mixer.init()
