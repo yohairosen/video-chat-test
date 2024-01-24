@@ -164,7 +164,7 @@ def play_video():
             if cap:
                 ret, frame = cap.read()
             if frame is not None:#没有传音频过来时显示train.mp4的第一帧，建议替换成大约1秒左右的视频
-                cv2.imshow('Fay-2d', frame)
+                cv2.imwrite('Fay-2d', frame)
                 # 等待 38 毫秒
                 cv2.waitKey(38)
             if not ret:

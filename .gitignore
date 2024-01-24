@@ -3,3 +3,4 @@ pytorch3d/
 
 data/video/results/*
 data/audio/*
+myenv/

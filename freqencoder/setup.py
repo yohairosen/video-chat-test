@@ -10,9 +10,13 @@ nvcc_flags = [
     '-use_fast_math'
 ]
 
+print("start")
+
 if os.name == "posix":
-    c_flags = ['-O3', '-std=c++14']
+    print("posix")
+    c_flags = ['-O3', '-std=c++17']
 elif os.name == "nt":
+    print("nt")
     c_flags = ['/O2', '/std:c++17']
 
     # find cl.exe

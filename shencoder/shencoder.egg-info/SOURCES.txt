@@ -1,6 +1,6 @@
 setup.py
-E:/xuniren/shencoder/src/bindings.cpp
-E:/xuniren/shencoder/src/shencoder.cu
+/home/ubuntu/xuniren/shencoder/src/bindings.cpp
+/home/ubuntu/xuniren/shencoder/src/shencoder.cu
 shencoder.egg-info/PKG-INFO
 shencoder.egg-info/SOURCES.txt
 shencoder.egg-info/dependency_links.txt
