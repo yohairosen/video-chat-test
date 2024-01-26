@@ -42,8 +42,10 @@ def send_information(path, ws):
 
 def txt_to_audio(text_):
     audio_list = []
-    audio_path = 'data/audio/aud_0.wav'
-    voicename = "zh-CN-YunxiaNeural"
+    # audio_path = 'data/audio/aud_0.wav'
+    audio_path = 'data/audio/silent.wav'
+    # voicename = "zh-CN-YunxiaNeural"
+    voicename = "en-AU-WilliamNeural"
     text = text_
     asyncio.run(main(voicename, text, audio_path))
     audio_process(audio_path)

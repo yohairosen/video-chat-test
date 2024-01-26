@@ -1,0 +1,22 @@
+__pycache__/
+build/
+*.egg-info/
+*.so
+*.mp4
+
+tmp*
+trial*/
+
+audio copy
+data/
+data_utils/face_tracking/3DMM/*
+data_utils/face_parsing/79999_iter.pth
+
+pretrained
+*.mp4
+
+scripts/train_chris_eo.sh
+scripts/train_marco_eo.sh
+scripts/test.sh
+pretrained copy/ngp_kf.pth
+.vscode/settings.json
